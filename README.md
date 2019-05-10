@@ -1,5 +1,7 @@
 # matrix-displayname
 
+NOTE: Instead of using this script, it is now easier to just use the new `/roomnick` command in Riot/Web, see [this PR](https://github.com/matrix-org/matrix-react-sdk/pull/2689).
+
 This is just a small Python script to set a displayname for just one Matrix room
 until support is implemented in major clients (see [this tracking issue for
 Riot/Web](https://github.com/vector-im/riot-web/issues/2458)).
