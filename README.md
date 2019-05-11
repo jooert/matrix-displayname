@@ -9,7 +9,7 @@ Riot/Web](https://github.com/vector-im/riot-web/issues/2458)).
 ## Usage
 
 ```
-./set_displayname !asfLdzLnOdGRkdPZWu:example.org "John Doe" @johndoe:example.org [password]
+./set_displayname "!asfLdzLnOdGRkdPZWu:example.org" "John Doe" "@johndoe:example.org" [password]
 ```
 
 The script takes three positional arguments: the Matrix room ID, the displayname
