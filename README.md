@@ -9,13 +9,15 @@ Riot/Web](https://github.com/vector-im/riot-web/issues/2458)).
 ## Usage
 
 ```
-./set_displayname "!asfLdzLnOdGRkdPZWu:example.org" "John Doe" "@johndoe:example.org" [password]
+./set_displayname '!asfLdzLnOdGRkdPZWu:example.org' 'John Doe' '@johndoe:example.org' [password]
 ```
 
 The script takes three positional arguments: the Matrix room ID, the displayname
 to be set and the Matrix ID (MXID) for the user whose displayname you want to
 set. You may also supply the user's password as the fourth positional argument;
-if you do not the script will prompt for the password.
+if you do not the script will prompt for the password. You should quote the room
+ID (or at least escape the exclamation mark `!`) when using bash (or similar shells)
+as the exclamation mark `!` is a special character there.
 
 ## Licensing
 
